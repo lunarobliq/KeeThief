@@ -12,7 +12,7 @@ namespace KeeTheft
             List<ulong> references = new List<ulong>();
             Stack<ulong> eval = new Stack<ulong>();
 
-            HashSet<ulong> considered = new HashSet<ulong>();
+            Microsoft.Diagnostics.Runtime.HashSet<ulong> considered = new Microsoft.Diagnostics.Runtime.HashSet<ulong>();
 
             eval.Push(obj);
 
